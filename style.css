@@ -1,0 +1,338 @@
+
+ *{
+    margin:0;
+    padding: 0;
+    
+    
+
+ }
+ .sidebar{
+   background-color:rgb(226, 216, 216);
+  height: 100vw;
+   font-family: sans-serif;
+   transition: transform 0.1s ease-in;
+   position: absolute;
+ }
+ .sidebar nav{
+   padding: 40px;
+   height: 100px;
+
+ }
+ .sidebar nav li{
+   list-style: none;
+   font-size: 20px;
+   padding: 33px 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+ .sidebar nav li a{
+   text-decoration: none;
+   color: black;
+ }
+ .main{
+   /* background-color: aqua; */
+   width: 90vw;
+ }
+.container{
+   display: flex;
+   
+   /* background-color: rgb(41, 15, 233); */
+}
+.infocontainer{
+   /* background-color: chartreuse; */
+   margin: 144px auto;
+   width: 77vw;
+   height: 42vw;
+   display: flex;
+   justify-content: space-around;
+  
+  
+}
+.info{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+.logo img{
+   height: 42vw;
+  
+  
+}
+.hello{
+   font-size: 45px;
+}
+.name{
+   font-size: 50px;
+   
+   font-weight: bold;
+}
+.about{
+   font-size: 20px;
+   margin-top: 30px;
+   
+}
+.batan{
+   margin-top: 34px;
+}
+.btn{
+   border-radius: 24px;
+   color: white;
+   background-color: blueviolet;
+   font-weight: bold;
+   font-size: 21px;
+   margin: 0 3px;
+   padding: 9px 14px;
+   cursor: pointer;
+}
+.batan button :hover{
+   color: blueviolet;
+   background-color: white;
+}
+
+
+
+/* Contact form */
+.contactform{
+   padding: 0 33px;
+   padding-top: 150px;
+   height: 80vw;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 20vw;
+}
+.contactform h2{
+
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+.contactform form div{
+   padding: 5px 0;
+   display: flex;
+   flex-direction: column;
+}
+.contactform div input{
+   width: 26vw;
+   border-radius: 5px;
+   padding: 8px;
+   margin: 6px 0 0 0;
+}
+#emailHelp{
+   margin:  0 5px;
+   color: black;
+   font-size: 10px;
+
+}
+#form-check{
+   flex-direction: row;
+
+}
+#form-check input{
+   width: 20px;
+   margin: 3px 0;
+
+}
+.btn-sm{
+   border-radius: 24px;
+   color: white;
+   background-color: blueviolet;
+   font-weight: bold;
+   font-size: 21px;
+   margin: 0 3px;
+   padding: 9px 14px;
+   cursor: pointer;
+
+}
+/* skills */
+.skill{
+   width: 180px;
+   height: 12px;background: #000;
+}
+/* responsive */
+.ham{
+   margin-left: 10px;
+}
+
+.hamcont{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   cursor: pointer;
+}
+.cross{
+   margin-left: 110px;
+   margin-top: 10px;
+}
+.sidebargo{
+   
+   transform: translate(-443px, 0px);
+   position: absolute;
+}
+
+@media screen and (min-width: 480px) {
+   /* body {
+     background-color: lightgreen;
+   } */
+    /* .logo{
+      display:;
+    } */
+   
+ }
+/* education */
+.intro .intr .logo{
+   display: flex;
+   align-items: center;
+   padding-bottom: 10px;
+   
+
+}
+.logon img{
+   height: 42vw;
+    width: 40vw;
+    padding-left: 65vw;
+    margin-top: -14vw;
+    border-radius: 30px;
+}
+.Rathod{
+   font-size: 20px;
+    height: 3vw;
+    width: 43vw;
+    padding-left: 26vw;
+    margin-top: 73px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+}
+  
+.education .boxcontainer{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 1rem 0;
+   padding-left:20rem ;
+}
+.education .boxcontainer .box{
+   width: 27rem;
+   margin: 4rem 1rem;
+   padding-left: 4rem;
+   border-left: 2rem solid yellow;
+   position: relative;
+
+}
+.education .boxcontainer .box span{
+   font-size: 1.3rem;
+   background: #222;
+   color: hsl(0, 13%, 87%);
+   border-radius: 2rem;
+   padding: 0rem 0.5rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.education .boxcontainer .box h3{
+   font-size: 20px;
+   padding: 1rem;
+   color: #100606;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.education .boxcontainer .box p{
+   font-size: 1rem;
+   padding: 1rem;
+   color: #110505;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.education .boxcontainer .box i{
+   position: absolute;
+   top: -1.5rem;
+   left: -2.5rem;
+   height: 5rem;
+   width: 5rem;
+   text-align: center;
+   font-size: 2rem;
+   color: #fff;
+   background: var(--yellow);
+}
+h1{
+   font-size: 30px;
+   color: rgb(14, 15, 15);
+   padding-top: 40px;
+   padding-left: 330px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Skills */
+.skills-container {
+   width: 80%;
+   margin: 50px auto;
+   text-align: center;
+   padding-left: 260px;
+}
+
+.skill {
+   margin: 20px 0;
+}
+
+.skill-bar {
+   width: 100%;
+   background-color: #ddd;
+   border-radius: 5px;
+   overflow: hidden;
+   margin-bottom: 20px;
+}
+
+.skill-level {
+   text-align: right;
+   padding: 10px;
+   color: white;
+   border-radius: 5px;
+}
+
+.html {
+   width: 90%;
+   background-color: #04AA6D;
+}
+
+.css {
+   width: 80%;
+   background-color: #04AA6D;
+}
+
+.js {
+   width: 65%;
+   background-color: #04AA6D;
+}
+.java {
+   width: 90%;
+   background-color: #04AA6D;
+}
+.python {
+   width: 90%;
+   background-color: #04AA6D;
+}
+.my{
+   margin-bottom: 100px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-right: 300px;
+}
+.h{
+   padding-right: 950px;
+   font-size: 20px;
+   margin-bottom: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.c{
+   padding-right: 950px;
+   font-size: 20px;
+   margin-bottom: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.j{
+   padding-right: 950px;
+   font-size: 20px;
+   margin-bottom: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
